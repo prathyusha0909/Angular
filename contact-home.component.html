@@ -1,0 +1,28 @@
+<p class="display-4 text-center">contact Home</p>
+
+<div class="card-deck">
+    <div class="card shadow">
+        <div class="card-header card-title bg-info">Manage Contact</div>
+        <div class="card-body">
+            <div class="card-text">
+                This section is used to manage Contact.
+                To view list of customers,click on "View List",
+                Tp add new customer,click on"ADD contact"
+                <a [routerLink]="['/contact','list']"
+                    routerLinkActive="active"
+                    class="btn btn-lg btn-outline-success">
+                    View List &raquo;
+                </a>
+                <a [routerLink]="['/contact','new']"
+                 routerLinkActive="active"
+                 class="btn btn-lg btn-outline-danger">
+                Add Customer &raquo;
+            </a> 
+           
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
